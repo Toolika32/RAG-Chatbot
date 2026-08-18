@@ -14,7 +14,7 @@ const sendButton = document.getElementById("send-button");
 const typingIndicator = document.getElementById("typing-indicator");
 
 // ---- 2. The backend endpoint we'll send questions to ----
-const API_URL = "http://127.0.0.1:8000/ask";
+const API_URL = "https://rag-chatbot-3-mi2p.onrender.com/ask";
 
 // ---- 3. Listen for the form being submitted ----
 // This fires both when the send button is clicked AND when the user
