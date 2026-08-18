@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+load_dotenv()
 import os
 
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -7,7 +8,7 @@ from langchain_classic.chains import create_retrieval_chain
 from langchain_classic.chains.combine_documents import create_stuff_documents_chain
 from retriever import retriever
 
-load_dotenv()
+
 
 api_key = os.getenv("GOOGLE_API_KEY")
 
